@@ -1,0 +1,172 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+.header-section div {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-section a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-section, .awesome-section {
+    background-color: #1F2937;
+}
+
+.awesome-section {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+    gap: 100px;
+}
+
+.awesome-section .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.awesome-section .text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome-section .left-info {
+    width: 450px;
+}
+
+.awesome-section button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.random-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 48px;
+    margin-bottom: 96px;
+}
+
+.random-section .title {
+    margin-top: 48px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.random-cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.random-cards .text {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.random-cards>div {
+    width: 150px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 96px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-section .text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    width: 700px;
+}
+
+.quote-section .author {
+    font-size: 24px;
+    font-weight: 800;
+    align-self: flex-end;
+    color: #1F2937;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding: 48px 96px;
+    display: flex;
+    gap: 96px;
+}
+
+.blue-box button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+
+.blue-box .title{
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.blue-box .text {
+    color: #E5E7EB;
+}
+
+.footer-section {
+    background-color: #1F2937;
+    padding: 36px 0px;
+    text-align: center;
+    color: #E5E7EB;
+}
